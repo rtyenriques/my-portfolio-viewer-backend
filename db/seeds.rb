@@ -7,3 +7,4 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 ross = User.create(:name => "Ross Enriques", :email => "rtyenriques@gmail.com", :password => "dont4get", :location => "Las Vegas", :bio => "FullStack Developer", :admin => true)
+post_one = Post.create(:title =>"Post One", :content => "This is first post", :category => "blog", :user_id => 1)
