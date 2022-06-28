@@ -55,7 +55,7 @@ ActiveRecord::Schema.define(version: 2022_06_24_065200) do
     t.string "password_digest"
     t.string "location"
     t.string "bio"
-    t.boolean "admin"
+    t.boolean "admin", default: false, null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
